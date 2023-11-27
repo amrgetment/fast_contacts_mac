@@ -1,0 +1,22 @@
+PODS:
+  - fast_contacts (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+
+DEPENDENCIES:
+  - fast_contacts (from `Flutter/ephemeral/.symlinks/plugins/fast_contacts/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+
+EXTERNAL SOURCES:
+  fast_contacts:
+    :path: Flutter/ephemeral/.symlinks/plugins/fast_contacts/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+
+SPEC CHECKSUMS:
+  fast_contacts: cf1593ff35fb3157bd3ee5ef1f808b79ad5d74fc
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.14.3
