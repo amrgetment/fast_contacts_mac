@@ -5,7 +5,7 @@ import 'dart:typed_data' as td;
 import 'package:fast_contacts/fast_contacts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-//import 'package:permission_handler/permission_handler.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +28,8 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> loadContacts() async {
     try {
-      //await Permission.contacts.request();
+      final permissionStatus = await Permission.contacts.status;
+      final permission = await Permission.contacts.request();
       _isLoading = true;
       if (mounted) setState(() {});
       final sw = Stopwatch()..start();

@@ -30,5 +30,11 @@
     <string>NSApplication</string>
     <key>NSContactsUsageDescription</key>
     <string>This app needs access to address book</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Take a new photo to update your contact's picture.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>In order to see details about people in your circle, ment needs basic contact information</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Choose a photo from your library to update your contact's picture.</string>
 </dict>
 </plist>

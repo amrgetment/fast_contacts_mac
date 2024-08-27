@@ -43,6 +43,25 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
 
+dependency_overrides:
+  # https://github.com/Baseflow/flutter-permission-handler/pull/1207
+  permission_handler:
+    git:
+      url: git@github.com:alex-melnyk/flutter-permission-handler.git
+      path: permission_handler
+      ref: master
+  # https://github.com/Baseflow/flutter-permission-handler/pull/1207
+  permission_handler_apple:
+    git:
+      url: git@github.com:alex-melnyk/flutter-permission-handler.git
+      path: permission_handler_apple
+      ref: master
+  permission_handler_html:
+    git:
+      url: https://github.com/raldhafiri/flutter-permission-handler.git
+      ref: main
+      path: permission_handler_html
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

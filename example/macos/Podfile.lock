@@ -2,21 +2,27 @@ PODS:
   - fast_contacts (0.0.1):
     - FlutterMacOS
   - FlutterMacOS (1.0.0)
+  - permission_handler_apple (0.0.1):
+    - FlutterMacOS
 
 DEPENDENCIES:
   - fast_contacts (from `Flutter/ephemeral/.symlinks/plugins/fast_contacts/macos`)
   - FlutterMacOS (from `Flutter/ephemeral`)
+  - permission_handler_apple (from `Flutter/ephemeral/.symlinks/plugins/permission_handler_apple/macos`)
 
 EXTERNAL SOURCES:
   fast_contacts:
     :path: Flutter/ephemeral/.symlinks/plugins/fast_contacts/macos
   FlutterMacOS:
     :path: Flutter/ephemeral
+  permission_handler_apple:
+    :path: Flutter/ephemeral/.symlinks/plugins/permission_handler_apple/macos
 
 SPEC CHECKSUMS:
   fast_contacts: cf1593ff35fb3157bd3ee5ef1f808b79ad5d74fc
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  permission_handler_apple: fa7012038b5aa4ed34436aa5aa4e943f94b32417
 
-PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+PODFILE CHECKSUM: e07659c439600475cd65ae0b77c3d8fab11a0213
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
